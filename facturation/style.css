@@ -1,0 +1,56 @@
+/* Navigation */
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+/* Corps de la page */ 
+
+body
+{
+	background: url("img/fond.jpeg");
+	/*text-align: center;*/
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+
+#presentation
+{
+	text-align: left;
+	
+}
+/*Alignes les formulaires*/
+label
+{
+    display: block;
+    width: 250px;
+    float: left;
+}
+h1
+{
+    text-align: center;
+}
+
+    table td, table th
+    {
+      text-align: center;
+      padding: 25px 30px;
+    }
